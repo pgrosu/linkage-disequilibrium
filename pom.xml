@@ -16,6 +16,7 @@
     <bigtable.version>0.2.3</bigtable.version>
   </properties>
 
+
   <dependencies>
     <dependency>
       <groupId>com.google.auto.value</groupId>
