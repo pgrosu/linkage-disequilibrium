@@ -6,4 +6,4 @@ jdk:
 script: mvn test javadoc:javadoc
 
 after_success:
-  - mvn clean cobertura:cobertura -Dcobertura.report.format=xml coveralls:cobertura
+  - mvn -X clean cobertura:cobertura coveralls:report
